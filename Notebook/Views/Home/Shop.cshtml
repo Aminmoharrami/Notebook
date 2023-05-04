@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Shop";
+    //هنددل کردن سئو با ViewData
+    //ViewData["keywords"] = "Sampale Meta For Seo by ViewData Page Shop";
+}
+@section Seo{
+    <meta name="keywords" content="Manage Keywords Seo By RenderSection">
+    <meta name="description" content="Manage Description Seo By RenderSection">
+}
+
+
+
+<h1>Shop</h1>
+<a href="https://beaunice.ir/">Beaunice Page</a>
+
+
+@section BaseJs{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+}
+
+@*فایل های مربوط به فوتر را با استفاده از قانون RnderSection مدیریت کردیم*@
+@section Footer {
+    <script src="~/js/Test.js" asp-append-version="true"></script>
+}

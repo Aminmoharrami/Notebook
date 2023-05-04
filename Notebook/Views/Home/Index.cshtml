@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Seo{
+    <meta name="keywords" content="Manage Keywords Seo By RenderSection">
+    <meta name="description" content="Manage Description Seo By RenderSection">
+}
+
+<style>
+    .Learning {
+        padding: 1rem;
+        border-radius: 1rem;
+        font-family: 'Comic Sans MS';
+    }
+
+        .Learning p {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 1rem;
+            box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+        }
+
+    a {
+        color: #393939;
+        text-decoration: none;
+    }
+</style>
+
+<div class="text-start">
+    <h1 class="display-6">.NET training 6</h1>
+</div>
+
+
+
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Part 1 (Introduction)
+            </button>
+        </h2>
+
+        <div id="collapseOne" class="Learning accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <a href="#"><p>How Web Work</p></a>
+                <a href="#"><p>MVC Pattern</p></a>
+                <a href="#"><p>Connecting Controller To View</p></a>
+                <a href="#"><p>where to find views</p></a>
+                <a href="#"><p>Razor View Engine</p></a>
+                <a href="#"><p>Razor View Engine</p></a>
+                <a href="#"><p>Razor View Engine</p></a>
+                <a href="#"><p>RenderBody()</p></a>
+                <a href="#"><p>RenderSection()</p></a>
+                <a href="#"><p>Seo By RenderSection() & ViewData</p></a>
+                <a href="#"><p>MetaData Tag For Seo</p></a>
+                <a href="#"><p>ViewData</p></a>
+                <a href="#"><p>View Page Source Ctrl + U</p></a>
+                <a href="#"><p>Link Generation</p></a>
+                <a href="#"><p>Resolving template problem</p></a>
+                <a href="#"><p>Send model to view</p></a>
+                <a href="#"><p>ViewData and ViewBag</p></a>
+                <a href="#"><p>Capture Response Inspect Element</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTow">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                Part 2 
+            </button>
+        </h2>
+        <div id="collapseTwo" class="Learning accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <a href="#"><p>Initializing project Repository</p></a>
+                <a href="#"><p>Create Project Git Repository</p></a>
+                <a href="#"><p>Adding Pages to Template</p></a>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Part 3
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section Bootstrap{
+    <script src="~/js/bootstrap.min.js"></script>
+
+}
+   
