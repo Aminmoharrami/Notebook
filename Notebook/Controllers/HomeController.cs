@@ -13,6 +13,11 @@ namespace Notebook.Controllers
         }
 
 
+        public IActionResult HowToWebWork()
+        {
+            return View();
+        }
+
         #region Action Return Types
 
 
